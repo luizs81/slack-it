@@ -1,4 +1,4 @@
-led / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Kappa files
+.kappa/
+kappa.yml
+*.zip
