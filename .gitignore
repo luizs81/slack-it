@@ -1,3 +1,6 @@
+# General files
+*.swp
+
 # Kappa files
 .kappa/
 kappa.yml
