@@ -8,7 +8,7 @@ environments:
         channel: "channel name"
         username: "bot name"
         icon_emoji: "emoji code"
-        webhook_path: "/services/your-slack-webhook-url-info-goes-here"
+        webhook_url: "https://hooks.slack.com/services/xxxx"
     policy:
       resources:
         - arn: <arn of your SNS topic>
