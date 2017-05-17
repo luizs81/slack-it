@@ -24,3 +24,4 @@ lambda:
   runtime: python2.7
   memory_size: 128
   timeout: 3
+  dependencies: [/full/path/for/lib/folder]
