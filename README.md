@@ -4,12 +4,10 @@ AWS Lambda function to push SNS notifications to Slack
 
 ## Quick start
 
-```bash
-$ git clone git@github.com:luizs81/slack-it.git
-$ virtualenv --python $(which python2.7) slack-it
-$ cd slack-it && source bin/activate
-$ pip install -r requirements.txt
-```
+1. Clone this repository
+2. Create a virtual environment and install the dependencies
+3. Copy the `kappa.yml.sample` to `kappa.yml` and fill the correct values
+4. `$ cd _src && pip install -r requirements.txt -t /full/path/to/lib/folder`
 
 ## References
 * [How to set up a Slack channel to be an AWS SNS subscriber](https://medium.com/cohealo-engineering/how-set-up-a-slack-channel-to-be-an-aws-sns-subscriber-63b4d57ad3ea)
