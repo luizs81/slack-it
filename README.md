@@ -1,6 +1,6 @@
 # slack-it
 
-AWS Lambda function to push SNS notifications to Slack
+Lambda function to push SNS notifications to Slack. It uses [kappa](https://github.com/garnaat/kappa) for easy deploy to AWS. 
 
 ## Quick start
 
