@@ -1,3 +1,2 @@
 awscli==1.11.80
 kappa==0.7.0
-requests==2.13.0
